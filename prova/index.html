@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prova</title>
+</head>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+<body id="body1">
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Olá, eu sou Sophia </h1>
+        <p>Estudante da etec.</p>
+    </header>
+
+    <section id="sobre">
+        <h2 id="topo">Sobre mim</h2>
+        <p>Aprendo interfaces web com a professora Carolina da Etec Rodrigues de Abreu, estou começando a aprender java script no momento.</p>
+        <p>Nasci em 10 de Novembro de 2008 e atualmente tenho 16 anos.</p>
+        <p>Moro com meus pais e tenho 2 pets.</p>
+        <img src="assets/WhatsApp Image 2024-11-22 at 15.03.21.jpeg"  height="400">
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Veja Minhas Músicas Favoritas:</p>
+        <br>
+        <div class="projeto">
+            <h3>Mis</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/niUDtr9m4uU?si=x7X8SzimcQsZhVh3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Vibe lo-fi e melancólica. Com guitarras suaves e batidas simples, a faixa explora sentimentos de dúvida e desconexão, criando uma atmosfera introspectiva e íntima.</p>
+            <a href="https://www.letras.mus.br/alex-g/mis/traducao.html" target="_blank">Ver projeto</a>
+        </div>
+
+        <div class="projeto">
+            <h3>Sarah</h3>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/hUKe6gihtx0?si=Lp05B3uBlDP-KYBO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+            <p>Mistura melancolia e sensações de saudade. Com uma sonoridade suave e envolvente, a canção aborda relações complicadas e sentimentos de perda, criando uma atmosfera introspectiva e emocional.</p>
+            <a href="https://www.letras.mus.br/alex-g/sarah/traducao.html" target="_blank">Ver projeto</a>
+        </div>
+    </section>
+
+
+
+    <footer id="contato">
+
+    <p>Clice no botão abaixo para falar comigo:</p>
+    <button id="goToPage2">Me contate</button>
+
+    <script>
+        document.getElementById("goToPage2").onclick = function() {
+            window.location.href = "index2.html";
+        };
+    </script>
+   
+        <div class="container">
+            <p> 2024 Sophia Cara - Todos os direitos reservados</p>
+            <a href="#topo">Voltar para o topo</a>
+        </div>
+    </footer>
+</body>
+</html>
